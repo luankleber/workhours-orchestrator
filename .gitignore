@@ -1,0 +1,7 @@
+.env
+*.env
+__pycache__/
+*.pyc
+config.json
+plano_para_preenchimento.json
+registros_mensais.json
