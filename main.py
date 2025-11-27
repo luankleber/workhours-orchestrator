@@ -14,6 +14,8 @@ from leitura_tabela import ler_tabela_registros
 from gerar_plano import gerar_plano
 from preencher_registros import preencher_modal
 
+load_dotenv()  # carrega o .env
+
 # --- Configurações do Chrome ---
 chrome_options = Options()
 chrome_options.add_argument("--start-maximized")
@@ -104,5 +106,5 @@ from gerar_plano import gerar_plano
 plano_completo = gerar_plano()
 
 # --- FASE 3: Preparar registros para preenchimento ---
-from preencher_registros import preencher_modal
-preencher_modal(browser, plano_json_path="plano_para_preenchimento.json")
+#from preencher_registros import preencher_modal
+#preencher_modal(browser, plano_json_path="plano_para_preenchimento.json")

@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 
 # --- Ajuste só estes caminhos ---
-INPUT = "C:\\Users\\brludas\\Downloads\\script pmg\\tabela_final_organizada.xlsx"
+INPUT = "C:\\Users\\brludas\\Downloads\\script pmg\\script_horas\\tabela_final_organizada.xlsx"
 OUTPUT = "timesheet.xlsx"
 # ---------------------------------
 

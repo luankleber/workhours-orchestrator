@@ -5,3 +5,6 @@ __pycache__/
 config.json
 plano_para_preenchimento.json
 registros_mensais.json
+tabela_final_organizada.xlsx
+timesheet.xlsx
+~$*.xlsx
